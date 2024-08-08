@@ -1,0 +1,41 @@
+# MATLAB specific files
+*.asv            # Auto-save files
+*.m~             # Backup files
+*.mlx            # Live scripts (only if you don't want to track them)
+*.mlapp          # MATLAB app files (only if you don't want to track them)
+*.mltbx          # MATLAB toolbox files (only if you don't want to track them)
+*.slx            # Simulink models (only if you don't want to track them)
+*.mdl            # Simulink models (only if you don't want to track them)
+*.mex*           # Compiled binary MEX files
+*.p              # MATLAB P-code files (obfuscated code)
+
+# Project-specific files
+*.prj            # MATLAB project files
+*.mexw*          # Windows MEX files
+*.mexmaci*       # macOS MEX files
+*.mexglx*        # Linux MEX files
+*.mlproj         # MATLAB project files
+*.applog         # MATLAB App Designer log files
+
+# Cache and logs
+**/slprj/        # Simulink project build folders
+**/mccExcludedFiles.log  # MATLAB Compiler logs
+**/codegen/      # MATLAB code generation files
+**/html/         # Generated HTML documentation
+*.log            # Log files
+
+# Workspace and user-specific files
+*.mat            # MATLAB binary data files
+*.fig            # MATLAB figure files
+*.txt            # Text files (only if they are not necessary)
+*.csv            # CSV files (only if they are not necessary)
+*.xls*           # Excel files (only if they are not necessary)
+*.json           # JSON files (only if they are not necessary)
+
+# Hidden system files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Ignore temporary files from IDEs
+.idea/
+.vscode/
